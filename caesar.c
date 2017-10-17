@@ -26,7 +26,8 @@ int main(int argc,string a[])
       string s = get_string();
       printf("ciphertext:");
       for (i=0;i<strlen(s);i++)
-       if islower(s[i])
+       {
+           if islower(s[i])
        {
          s[i] =( (s[i]+(b) )-(97) )%26 +97;
 
@@ -45,6 +46,8 @@ int main(int argc,string a[])
             printf("%c",s[i]);
 
         }
+       }
+    printf("\n");
         return 0;
   }
   }
