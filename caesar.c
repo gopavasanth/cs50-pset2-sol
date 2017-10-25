@@ -6,7 +6,6 @@
 int main(int argc,string a[])
 {
     int i;
-
     if (argc != 2)
     {
         printf("/n");
