@@ -36,7 +36,7 @@ int main(int argc,string a[])
        }
        else if isupper(s[i])
           {
-              s[i] = ((s[i]+(b) )-(65) )%29 + 65;
+              s[i] = ((s[i]+(b) )-(65))%29 + 65;
 
               printf("%c",s[i]);
           }
