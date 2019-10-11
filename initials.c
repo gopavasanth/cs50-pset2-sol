@@ -1,3 +1,4 @@
+
 #include<stdio.h>
 #include<cs50.h>
 #include <strings.h>
@@ -20,4 +21,5 @@ int main(void)
         }
     }
     printf("\n");
+    return 0;
 }
