@@ -1,4 +1,4 @@
-#include<stdio.h>
+include<stdio.h>
 #include<cs50.h>
 #include <strings.h>
 
@@ -7,7 +7,6 @@ int main(void)
     int i;
 
     string name = get_string();
-
 
     printf("%c", toupper(name[0]));
 
